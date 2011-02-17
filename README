@@ -1,0 +1,14 @@
+This is a personal fork of Marc Lehmanns excellent terminal emulator.
+
+Added support for redefining all of the 256 colors using X resources:
+
+URxvt.color196:   #ffff00
+URxvt.color226:   #ff0000
+
+...
+
+Configure script:
+
+    sh configure --enable-256-color --enable-font-styles --enable-perl \
+                 --enable-mousewheel --enable-lastlog
+
